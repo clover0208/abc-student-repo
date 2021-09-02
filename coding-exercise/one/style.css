@@ -1,6 +1,76 @@
-.flex-container {
+body{
+  background-color:black;
+}
+
+
+  :root{
+    --ts: .7s;
+  }
+  /* body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0,0%,95%);
+  } */
+  .box_button{
+    
+    position: relative;
+    left:50%;
+    top:-3.4%;
+    /* top:65px; */
+    font-size: 2rem;
+    width: 4em;
+    height: 1em;
+    /* display: flex; */
+    border-radius: 1em;
+    border: .18em solid white;
+    box-sizing: border-box;
+    cursor: pointer;
+    box-shadow: 0 .2em .2em hsla(0,0%,50%,.5);
+    transition: var(--ts);
+  }
+  /* .text{
+    position: absolute;
+    left:180px;
+    top:65px;
+    font-size: 0.25em;
+    height: 10%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    overflow: hidden;
+  }  */
+  /* .text_left{
+    color: white;
+  }
+  .text > div{
+    position: relative;
+    transition: var(--ts);
+    right: 0;
+  } */
+  .icon{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    font-size: 0.7em;
+    transition: var(.7s);
+    left: 0;
+    /* top:-14; */
+  }
+  
+  .flex-container {
     display: flex;
     flex-wrap: wrap;
+    
   }
   .flex-container > div {
     margin: 20px;
