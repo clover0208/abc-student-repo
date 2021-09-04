@@ -1,0 +1,16 @@
+body{
+background-color: white;
+}
+
+#valueDisplay{
+    position:relative;
+
+}
+
+#myRange{
+    position:relative; 
+}
+
+span{
+    position:relative;
+}
