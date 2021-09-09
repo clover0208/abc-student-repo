@@ -146,11 +146,11 @@ var createTree = function(){
 	var multiplicity;
  	var ratio;
 	
-	//set multiplicity and ratio
+	
 	(function(){
-		// var select =  document.getElementById("tree-multi");
+
 		var setMultiplicity = function(){multiplicity = parseInt(5, 30);};
-		// select.addEventListener("change", function(){setMultiplicity();});
+
 		setMultiplicity();
 		
 		var slider = document.getElementById("tree-ratio");
@@ -205,10 +205,10 @@ function start() {
 
     for (let i = 0; i < 200; i++) {
         let Square = document.createElement("div");
-        Square.style.width = rangeValue * randomNums[i] + 'px'
-        Square.style.height = rangeValue * randomNums[i]+'px'
+        Square.style.width = rangeValue * random[i] + 'px'
+        Square.style.height = rangeValue * random[i]+'px'
         Square.style.position = "absolute"
-        Square.style.top += rangeValue * randomNums[i] + 'px'
+        Square.style.top += rangeValue * random[i] + 'px'
 		Square.style.left = divWidth * i + 'px'
 		Square.style.border = "thin groove #308014"
         Square.id = "div" + i;
@@ -222,9 +222,9 @@ let rangeSquare = document.getElementById('rangeSquare')
 rangeSquare.addEventListener('input', range1)
 
 
-let randomNums = [];
+let random = [];
 for (let i = 0; i < 100; i++) { 
-    randomNums.push(Math.random() * 6 + 2)
+    random.push(Math.random() * 6 + 2)
 }
 
 function range1() {
@@ -236,7 +236,7 @@ function range1() {
 		Square.style.width = divWidth + 'px'
         Square.style.height = 2 + 'px'
 		Square.style.position = "absolute"
-        Square.style.top += rangeValue * randomNums[i] + 'px'
+        Square.style.top += rangeValue * random[i] + 'px'
         Square.style.left = divWidth * i + 'px'
         Square.style.border = "thin groove #308014"
         Square.id = "div" + i;
@@ -245,6 +245,8 @@ function range1() {
     }
 
 }
+
+//Play with camera
 
 // var video;
 
@@ -286,3 +288,102 @@ function range1() {
 // 	}
 // }
 // }
+
+
+window.onkeyup = keyup;
+
+//creates a global Javascript variable
+var inputTextValue;
+
+function keyup(e) {
+
+let contentElement = document.getElementById('contentElement');
+
+  inputTextValue = e.target.value;
+  $('#searchValue').text(inputTextValue);
+  document.getElementById('searchValue').style.color='white';
+  //listens for you to press the ENTER key, at which point your web address will change to the one you have input in the search box
+  if (e.keyCode == 13) {
+    window.location = "https://duckduckgo.com/?q=" + inputTextValue;
+  }
+  let letters = inputTextValue.split("");
+  for (let i = 0; i < letters.length; i++) {
+	let newDiv = document.createElement("div");
+	newDiv.style.position = "absolute"
+	newDiv.style.top = Math.random() * (window.innerHeight - 100) + 50 + 'px'
+	newDiv.style.left = Math.random() * (window.innerWidth) + 'px'
+	newDiv.style.color = 'red'
+	newDiv.style.fontSize = 20+ 'px'
+	newDiv.className = "newDiv"
+	newDiv.id = 'newDiv' + i
+	let newContent = document.createTextNode(letters[i]);
+	newDiv.appendChild(newContent);
+	document.getElementById("contentElement").appendChild(newDiv)
+}
+let NewDiv = document.getElementsByClassName('newDiv')
+
+setInterval(move, 20);
+
+
+
+
+
+let Rotate = []
+for (let i = 0; i <NewDiv.length; i++) {
+	Rotate.push(Math.random() * 10 - 5)
+}
+
+let Moving = []
+for (let i = 0; i < NewDiv.length; i++) {
+	Moving.push(Math.random() * 10 - 5)
+}
+let Movingtwo = []
+for (let i = 0; i < NewDiv.length; i++) {
+	Movingtwo.push(Math.random() * 10 - 5)
+}
+
+
+
+function move() {
+	for (let i = 0; i < NewDiv.length; i++) {
+    Rotate[i] += 2
+	Moving[i] += 3
+	Movingtwo[i] += 3
+	NewDiv[i].style.transform = "translate(" + Movingtwo[i]/3 + "px," + Moving[i]/3 + "px)" + "rotate(" + Rotate[i] + "deg)"
+
+	}
+}
+
+//   let letterSpans = letters.map((letter)=>{ return "<span>"+letter+"</span>"});
+//   contentElement.innerHTML = letterSpans.join("");
+// //   let spanTags = contentElement.getElementsByTagName("span");
+// //   let randomMultipliers = letters.map((letter)=>{ return Math.random()*4 })
+//   $('.contentElement').find('span:first').addClass('q q4');
+//   $('.contentElement').find("td:nth-child(2) span.select_me").addClass('q q2');
+// //   $('.contentElement:second').find('span:third').addClass('q q3');
+  
+//   var element = 1;
+
+
+//   $(document).ready(function() {
+  
+//   $('.q').click(function(){
+// 		  $(this).removeClass('q').addClass("answer" + element);
+// 		  element = element + 1;
+//   });
+  
+//   })
+  console.log(contentElement)
+  
+//   for(let i = 0; i < spanTags.length; i+=1){
+  // then we multiply the slider value by the multiplier
+//   let yPos = randomNums[i]*i
+  // and apply the new value to the top position
+  // of the span tag. this works because we have set
+  // all span elements to position: relative in style.css
+//   spanTags[i].style.top = yPos + "px";
+//   }
+
+
+}
+
