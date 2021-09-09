@@ -1,0 +1,158 @@
+
+        #hexagon { 
+         
+
+          
+          /* padding: 0;
+          display: block;
+          margin: 0 auto; */
+          position:absolute;
+          top: 20vh;
+           left: 10vw;
+        }
+
+        #hexagontwo { 
+
+          /* padding: 0;
+          display: block;
+          margin: 0 auto; */ 
+          position:absolute;
+          top: 30vh;
+           left: 10vw;
+        }
+
+        /* .classname{
+          opacity: 0;
+        } */
+
+
+
+
+
+
+/* .element {
+            transform: rotate(90deg);
+        } */
+
+        #img { 
+          cursor: pointer;
+          position: absolute; 
+          top: 30vh;
+          left: 10vw; 
+          transition: all 1s;
+        
+        }
+
+        #showMe { 
+          /* cursor: pointer; */
+          position: absolute; 
+          top: 70vh;
+          left: 10vw; 
+          /* transition: all 1s; */
+        
+        }
+        /* .rotated-image {
+          -webkit-transform: rotate(20deg);
+                  transform: rotate(20deg);
+                  animation: rotation 2s infinite linear;
+        } */
+
+        #project-one {
+          padding: 0;
+          display: block;
+          position:absolute;
+
+         top: 22vh;
+          left: 6vw;
+          /* max-height: 100%; */
+          max-width: 110%;
+      }
+        .rotate:active {
+          transform: rotate(180deg)
+          }
+
+          #room {
+            padding: 0;
+            display: block;
+            margin: 0 auto;
+            margin-top: -35px;
+            margin-left: -8px;
+            /* max-height: 100%; */
+            max-width: 110%;
+        }
+
+      .a {
+          width: 50px;
+          height:50px;
+           /* background-color:red; */
+          position:fixed;
+              
+          }
+          .b {
+            width: 50px;
+            height:50px;
+             /* background-color:red; */
+            position:fixed;
+                
+            }
+            .c {
+              width: 50px;
+              height:50px;
+               /* background-color:red; */
+              position:fixed;
+                  
+              }
+              .d {
+                width: 50px;
+                height:50px;
+                 /* background-color:red; */
+                position:fixed;
+                    
+                }
+
+                .e {
+                  width: 50px;
+                  height:50px;
+                   /* background-color:red; */
+                  position:fixed;
+                      
+                  }
+                  .f {
+                    width: 50px;
+                    height:50px;
+                     /* background-color:red; */
+                    position:fixed;
+                        
+                    }
+                    .g {
+                      width: 50px;
+                      height:50px;
+                       /* background-color:red; */
+                      position:fixed;
+                          
+                      }
+                      .h {
+                        width: 50px;
+                        height:50px;
+                         /* background-color:red; */
+                        position:fixed;
+                            
+                        }
+                        .i {
+                          width: 50px;
+                          height:50px;
+                           /* background-color:red; */
+                          position:fixed;
+                              
+                          }
+                          .j {
+                            width: 50px;
+                            height:50px;
+                             /* background-color:red; */
+                            position:fixed;
+                                
+                            }
+                         
+
+
+

@@ -3,6 +3,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
     <title>cat</title>
   </head>
 
@@ -16,29 +17,35 @@ ssssssssssssss
     </p>
 </div>
 
-<!-- <p>Value: <span id="valueDisplay">100</span></p> -->
+<div id="rangeInputContainer">
+  <input type="range" id="rangeSquare" value=0 class="input">
+  <!-- <p style="margin:5px 15px">Move it!</p> -->
+</div>
+<div id="moreSquare"></div>
 
 
 <form>
-    <!-- <select id="tree-multi"> -->
-        <!-- <option value="5" selected>Multiplicity: 5</option> -->
-      <!-- <option value="2">Multiplicity: 2</option>
-      <option value="3">Multiplicity: 3</option>
-      <option value="4">Multiplicity: 4</option>
-      <option value="5" selected>Multiplicity: 5</option>
-      <option value="6">Multiplicity: 6</option>
-      <option value="7">Multiplicity: 7</option> -->
-    <!-- </select> -->
     <br/>
     <label for="tree-ratio">Ratio</label>
-    <input id="tree-ratio" type="range" min="0" max="1" value="0.6" step="0.01"/>
+    <input id="tree-ratio" type="range" min="0" max="1" value="0" step="0.01"/>
+    <!-- <input id="multiple-slider" type="range" min="0" max="1" value="0" step="0.01"/> -->
   </form>
   <div class="tree-container">
       <canvas id="tree" ></canvas>
   </div>
 
 
+  <!-- <div id="slider">
+    <div id="slider-area">
+        <div class="slide">content</div>
+        <div class="slide">content</div>
+        <div class="slide">content</div>
+    </div>
+</div> -->
+
 <script src ="./script.js"></script>
+
+
 
 </body>
   <link rel="stylesheet" href="./style.css">

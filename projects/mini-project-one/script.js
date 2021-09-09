@@ -38,7 +38,7 @@ var createTree = function(){
 		
 		var c = document.getElementById("tree").getContext("2d");
 		var canvasWidth = window.innerWidth;
-		var canvasHeight = window.innerHeight;
+		var canvasHeight = window.innerHeight-100;
 		var extent = 2.4; //arbitrary x scale
 		var nGen = 4;
 	
@@ -60,7 +60,7 @@ var createTree = function(){
 				var height = canvasHeight;
 				var width = canvasWidth;
 				var aspect = width/height;
-				var yRange = extent/aspect;
+				var yRange = extent/aspect*2;
 				var m = -height/yRange;
 				var c = -(m*extent);
 				
@@ -81,7 +81,7 @@ var createTree = function(){
 			
 			c.clearRect(0, 0, canvasWidth, canvasHeight);
 			c.beginPath();
-			c.strokeStyle = "#308014";
+			c.strokeStyle = "#";
 			var xInit = 0;
 			var yInit = 1.6;
 			var rotInit = 0;
@@ -196,3 +196,93 @@ var createTree = function(){
 
 var tree = createTree();
 tree.startAnimation();
+
+
+
+function start() {
+    let divWidth = window.innerWidth/50;
+    let rangeValue = rangeSquare.value;
+
+    for (let i = 0; i < 200; i++) {
+        let Square = document.createElement("div");
+        Square.style.width = rangeValue * randomNums[i] + 'px'
+        Square.style.height = rangeValue * randomNums[i]+'px'
+        Square.style.position = "absolute"
+        Square.style.top += rangeValue * randomNums[i] + 'px'
+		Square.style.left = divWidth * i + 'px'
+		Square.style.border = "thin groove #308014"
+        Square.id = "div" + i;
+        Square.className = "Squares"
+        document.getElementById("moreSquare").appendChild(Squares)
+    }
+
+}
+
+let rangeSquare = document.getElementById('rangeSquare')
+rangeSquare.addEventListener('input', range1)
+
+
+let randomNums = [];
+for (let i = 0; i < 100; i++) { 
+    randomNums.push(Math.random() * 6 + 2)
+}
+
+function range1() {
+    let divWidth = window.innerWidth/20;
+    let rangeValue = rangeSquare.value;
+
+    for (let i = 0; i < 200; i++) {
+        let Square = document.createElement("div");
+		Square.style.width = divWidth + 'px'
+        Square.style.height = 2 + 'px'
+		Square.style.position = "absolute"
+        Square.style.top += rangeValue * randomNums[i] + 'px'
+        Square.style.left = divWidth * i + 'px'
+        Square.style.border = "thin groove #308014"
+        Square.id = "div" + i;
+		Square.className = "Squares"
+        document.getElementById("moreSquare").appendChild(Square)
+    }
+
+}
+
+// var video;
+
+// var vScale = 16;
+// var slider;
+
+// function setup(){
+// 	createCanvas(700,480);
+// 	pixelDensity(1);
+// 	video = createCapture(VIDEO);
+// 	video.size(width/vScale,height/vScale);
+// 	slider=createSlider(0,255,77);
+// }
+
+// function draw(){
+// 	// background(255);
+// video.loadPixels();
+// loadPixels();
+// for(var y=0;y< 900;y++){
+// 	for(var x=0; x<video.width;x++){
+// 		var index=(video.width-x+1+(y*video.width))*4
+// 		var r=video.pixels[index+0];
+// 		var g=video.pixels[index+1];
+// 		var b=video.pixels[index+2];
+
+// 		var bright=(r+g+b)/3;
+// 		var threshold=slider.value();
+
+// 		if(bright>threshold){
+// 			fill(255);
+// 		}else{
+// 			fill(0);
+// 		}
+
+// 		noStroke();
+// 		rectMode(CENTER);
+// 		rect(x+vScale,y+vScale,vScale,vScale);
+
+// 	}
+// }
+// }
