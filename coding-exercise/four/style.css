@@ -1,0 +1,21 @@
+body{
+  background-color:black;
+
+}
+
+#button{
+  color:red;
+}
+
+#box{
+  width:100px;
+  height:100px;
+  background-color:blue;
+  margin:auto;
+  margin-top:40px;
+  cursor:pointer;
+  transition:transform 2s;
+}
+
+
+  
