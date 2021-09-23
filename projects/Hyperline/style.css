@@ -51,6 +51,24 @@
           /* transition: all 1s; */
         
         }
+        #show{
+          position: absolute; 
+          top: 20vh;
+          left: 40vw;
+        }
+        #showTwo{
+          position: absolute; 
+          top: 10vh;
+          left: 20vw;
+        }
+        /* #showMetwo { 
+          cursor: pointer;
+          position: absolute; 
+          top: 70vh;
+          left: 50vw; 
+          transition: all 1s;
+        
+        } */
         /* .rotated-image {
           -webkit-transform: rotate(20deg);
                   transform: rotate(20deg);

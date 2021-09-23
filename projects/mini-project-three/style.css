@@ -1,0 +1,58 @@
+body{
+    background-color:   black;
+  }
+  .tree-container{
+    /* width: 500px;
+    height: 600px; */
+      margin-left: auto;
+      margin-right: auto;
+    background-color: black;
+    /* margin-top: 8px; */
+  }
+
+  #rangeInputContainer{
+    /* border: solid 0.5px grey; */
+    /* border-radius: 20px; */
+    width: 1350px;
+    margin-top: 0px;
+    margin-left: 170px;
+}
+
+
+#tree-ratio{
+  /* border: solid 0.5px grey; */
+  border-radius: 20px;
+  /* width: 130px; */
+  position:relative;
+  top: -42px;
+  margin-left: -20px;
+}
+
+/* #searchTxt {
+  padding:10px 20px;
+} */
+/* 
+.solution {
+  margin-top: 100px;
+  -webkit-transition: all 5s;
+  position: relative;
+}
+
+.solution span {
+  border: solid 1px green;
+  padding: 10px;
+  margin-top: 80px;
+  -webkit-transition: all 2s;
+  position: absolute;
+  background-color: lightgreen;
+  font-size: 30px; */
+/* } */
+
+
+
+
+
+
+
+
+
