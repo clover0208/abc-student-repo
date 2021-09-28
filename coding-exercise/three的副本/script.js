@@ -246,23 +246,23 @@ function inputHapppened(){
       TweenLite.to('.bottom', 0.3, {css:{rotationX:rotation+range.value}});
       TweenLite.to(cube, 0.1, {css:{rotationX:range.value}});
       }
-      if(oscillator.frequency.value>1000&&oscillator.frequency.value<2000){
-        oscillator.type = "sawtooth";
-        TweenLite.to('.bottom', 0.3, {css:{rotationX:rotation+range.value}});
-        TweenLite.to('.top', 0.3, {css:{rotationX:rotation+range.value}});
-        TweenLite.to(cube, 0.1, {css:{rotationX:range.value}});
-      }
+      // if(oscillator.frequency.value>1000&&oscillator.frequency.value<2000){
+      //   oscillator.type = "sawtooth";
+      //   TweenLite.to('.bottom', 0.3, {css:{rotationX:rotation+range.value}});
+      //   TweenLite.to('.top', 0.3, {css:{rotationX:rotation+range.value}});
+      //   TweenLite.to(cube, 0.1, {css:{rotationX:range.value}});
+      // }
 
-      if(oscillator.frequency.value>2000){
-        oscillator.type = "   sine";
+      // if(oscillator.frequency.value>2000){
+      //   oscillator.type = "   sine";
      
-        TweenLite.to('.front', 0.3, {css:{rotationX:rotation+range.value*100}});
-        TweenLite.to('.back', 0.3, {css:{rotationX:rotation+range.value*100}});
-        TweenLite.to('.bottom', 0.3, {css:{rotationX:rotation+range.value}});
-        TweenLite.to('.top', 0.3, {css:{rotationX:rotation+range.value}});
-        TweenLite.to(cube, 0.1, {css:{rotationX:range.value}});
-        TweenLite.to(cube, 0.1, {css:{rotationY:range.value}});
-      }
+      //   TweenLite.to('.front', 0.3, {css:{rotationX:rotation+range.value*100}});
+      //   TweenLite.to('.back', 0.3, {css:{rotationX:rotation+range.value*100}});
+      //   TweenLite.to('.bottom', 0.3, {css:{rotationX:rotation+range.value}});
+      //   TweenLite.to('.top', 0.3, {css:{rotationX:rotation+range.value}});
+      //   TweenLite.to(cube, 0.1, {css:{rotationX:range.value}});
+      //   TweenLite.to(cube, 0.1, {css:{rotationY:range.value}});
+      // }
       
       TweenLite.to('.left', 0.3, {css:{rotationX:rotation+volumeInput.value*100}});
       TweenLite.to('.right', 0.3, {css:{rotationX:rotation+volumeInput.value*100}});

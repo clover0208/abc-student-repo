@@ -1,0 +1,129 @@
+/* body {
+  background: #e6e6e6;
+}
+#wrapper {
+  position: absolute;
+  top: 240px;
+  left: 100px;
+} */
+
+
+svg {
+  background: #ddd;
+  font: 10px sans-serif;
+  cursor: crosshair;
+}
+
+.line {
+  cursor: crosshair;
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+  stroke-linejoin: round;
+}
+
+#output {
+  position: relative;
+  top: -2em;
+  left: 0.67em;
+  font: 12px/1.4 monospace;
+}
+
+
+/* body{
+  background-color: #222;
+  text-align: center;
+  overflow:hidden;
+}
+
+
+
+svg{
+position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);
+}
+
+
+#DiacoDesignLink,#pens{
+  color: #fff;
+} */
+
+/* #object-position-1{
+  position:absolute;
+  top:28vh;
+  left:47vw;
+}
+
+#object-position-2{
+  position:absolute;
+  top:0vh;
+  left:40vw;
+} */
+/* #slider-vertical-one{
+  position:absolute;
+  top:42vh;
+  left:54vw;
+} */
+
+/* #slider-vertical-two{
+  position:absolute;
+  top:38vh;
+  left:55vw;
+} */
+/* .vranger {
+  height: 450px;
+  width: 200px;
+  margin-left: 46vw;
+  margin-top: 32vh;
+   transform: rotate(270deg);
+  -moz-transform: rotate(270deg); 
+} */
+
+/* .vrangertwo {
+  height: 450px;
+  width: 200px;
+  margin-left: 47vw;
+  margin-top: -60vh;
+   transform: rotate(270deg);
+  -moz-transform: rotate(270deg); 
+} */
+/* .vrangerthree {
+  height: 450px;
+  width: 210px;
+  margin-left: 48vw;
+  margin-top: -62vh;
+   transform: rotate(270deg);
+  -moz-transform: rotate(270deg); 
+} */
+/* .vrangerfour {
+  height: 450px;
+  width: 200px;
+  margin-left: 49.5vw;
+  margin-top: -63.5vh;
+   transform: rotate(270deg);
+  -moz-transform: rotate(270deg); 
+} */
+/* .vrangerfive {
+  height: 450px;
+  width: 150px;
+  margin-left: 52.5vw;
+  margin-top: -63.5vh;
+   transform: rotate(270deg);
+  -moz-transform: rotate(270deg); 
+} */
+/* .vrangersix {
+  height: 450px;
+  width: 100px;
+  margin-left: 55.5vw;
+  margin-top: -63.5vh;
+   transform: rotate(270deg);
+  -moz-transform: rotate(270deg); 
+} */
+
+
+/* path {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+} */
