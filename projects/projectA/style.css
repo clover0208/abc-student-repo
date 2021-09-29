@@ -1,9 +1,9 @@
 body {
-  /* background: #e6e6e6; */
+  background: #e6e6e6;
 }
 #wrapper {
   position: absolute;
-  top: 300px;
+  top: 240px;
   left: 100px;
 }
 

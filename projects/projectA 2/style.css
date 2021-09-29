@@ -1,0 +1,199 @@
+body {
+  -moz-transform: scale(0.8, 0.8);
+  zoom: 0.8;
+  zoom: 57%;
+}
+#imgtwo{
+  position: relative;
+  left: 7.8rem;
+  top:-17rem;
+pointer-events: none;
+}
+#img{
+  position: relative;
+   left: 7.8rem;
+   /* top: 2.2rem; */
+  /* top:0.8vh; */
+  pointer-events: none;
+  }
+
+#imgthree{
+  position: relative;
+  top:-5rem;
+   left: -10.1rem;
+   pointer-events: none;
+}
+#bottom-two{
+  position: relative;
+  top:10.8rem;
+   left: -8.9rem;
+   pointer-events: none;
+}
+#top-three{
+  position: relative;
+  top:6.8rem;
+   left: -28.9rem;
+   pointer-events: none;
+}
+#bottom-three{
+  position: relative;
+  top:22.3rem;
+   left: -24.9rem;
+   pointer-events: none;
+}
+#top-four{
+  position: relative;
+  top:17.7rem;
+   left: -46.88rem;
+   pointer-events: none;
+}
+#bottom-four{
+  position: relative;
+  top:34.2rem;
+   left: -41.7rem;
+   pointer-events: none;
+}
+
+  .piano-keys-container {
+    /* text-align: center; */
+
+    position: relative;
+   left: 9.9rem;
+   top: -15rem;
+  }
+
+
+  .vranger {
+    /* display: block; */
+    /* height: 200px; */
+    width: 260px;
+    position:absolute;
+    top:0rem;
+    left:-1.5rem;
+     transform: rotateZ(2.5deg);
+    /* -moz-transform: rotate(270deg); do same for other browsers if required */
+  }
+  
+  .vrangertwo {
+    /* display: block; */
+    width: 160px;
+    position:absolute;
+    top:2.8rem;
+    left:-0.2rem;
+    /* margin-right: 1.2rem; */
+     transform: rotateZ(-10.5deg);
+    /* -moz-transform: rotate(270deg); do same for other browsers if required */
+  }
+  .vrangerthree {
+    /* display: block; */
+    width: 150px;
+    position:absolute;
+    top:8.7rem;
+    left:-0.5rem;
+    /* margin-right: 1.2rem; */
+     transform: rotateZ(15.5deg);
+    /* -moz-transform: rotate(270deg); do same for other browsers if required */
+  }
+  .vrangerfour {
+    /* display: block; */
+    width: 220px;
+    position:absolute;
+    top:11.3rem;
+    left:-0.8rem;
+    /* margin-right: 1.2rem; */
+     transform: rotateZ(5deg);
+    /* -moz-transform: rotate(270deg); do same for other browsers if required */
+  }
+
+  .vrangerfive {
+    /* display: block; */
+    width: 240px;
+    position:absolute;
+    top:13.5rem;
+    left:-1rem;
+    /* margin-right: 1.2rem; */
+     transform: rotateZ(-2deg);
+    /* -moz-transform: rotate(270deg); do same for other browsers if required */
+  }
+  .vrangersix {
+    /* display: block; */
+    width: 200px;
+    position:absolute;
+    top:15.7rem;
+    left:2rem;
+    /* margin-right: 1.2rem; */
+     transform: rotateZ(-13deg);
+    /* -moz-transform: rotate(270deg); do same for other browsers if required */
+  }
+  .vrangerseven {
+    /* display: block; */
+    width: 130px;
+    position:absolute;
+    top:21.7rem;
+    left:2rem;
+    /* margin-right: 1.2rem; */
+     transform: rotateZ(2deg);
+    /* -moz-transform: rotate(270deg); do same for other browsers if required */
+  }
+  .vrangereight {
+    /* display: block; */
+    width: 200px;
+    position:absolute;
+    top:23.9rem;
+    left:-1rem;
+    /* margin-right: 1.2rem; */
+     transform: rotateZ(-2deg);
+    /* -moz-transform: rotate(270deg); do same for other browsers if required */
+  }
+  .vrangernine {
+    /* display: block; */
+    width: 200px;
+    position:absolute;
+    top:26.2rem;
+    left:-0.8rem;
+    /* margin-right: 1.2rem; */
+     transform: rotateZ(-2.5deg);
+    /* -moz-transform: rotate(270deg); do same for other browsers if required */
+  }
+
+  .vrangerten {
+    /* display: block; */
+    width: 150px;
+    position:absolute;
+    top:32.2rem;
+    left:-0.5rem;
+    /* margin-right: 1.2rem; */
+     transform: rotateZ(15.5deg);
+    /* -moz-transform: rotate(270deg); do same for other browsers if required */
+  }
+  .vrangereleven {
+    /* display: block; */
+    width: 220px;
+    position:absolute;
+    top:35rem;
+    left:-2.3rem;
+    /* margin-right: 1.2rem; */
+     transform: rotateZ(5deg);
+    /* -moz-transform: rotate(270deg); do same for other browsers if required */
+  }
+
+  .vrangertwelve {
+    /* display: block; */
+    width: 240px;
+    position:absolute;
+    top:37rem;
+    left:-3rem;
+    /* margin-right: 1.2rem; */
+     transform: rotateZ(-2deg);
+    /* -moz-transform: rotate(270deg); do same for other browsers if required */
+  }
+  .vrangerthirteen {
+    /* display: block; */
+    width: 200px;
+    position:absolute;
+    top:38.9rem;
+    left:-1rem;
+    /* margin-right: 1.2rem; */
+     transform: rotateZ(-13deg);
+    /* -moz-transform: rotate(270deg); do same for other browsers if required */
+  }

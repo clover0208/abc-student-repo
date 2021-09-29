@@ -1,0 +1,152 @@
+#arc-slider {
+    height: 270px !important;
+    width: 60px !important;
+    /* border: 1px dashed; */
+    overflow: hidden;
+    padding: 15px;
+    /* transform: rotate(270deg); */
+    /* -moz-transform: rotate(270deg); */
+    position:absolute;
+    top:22vh;
+    left:140px;
+}
+
+#arc-slider .rs-container {
+    margin-left: 18px;
+    /* margin-top: 66px; here 300 is the radius value */
+    /* left: 50%; */
+}
+#arc-slider .rs-tooltip {
+    top: 60px;
+}
+#arc-slider .rs-tooltip-text {
+    font-size: 25px;
+}
+/* #arc-slider .rs-border{
+    border-width: 0px;
+} */
+
+/* Appearance related changes */
+.rs-control .rs-range-color {
+    background-color: #0274ff;
+}
+.rs-control .rs-path-color {
+    background-color: #efefef;
+}
+.rs-control .rs-handle {
+    background-color: #0274ff;
+}
+
+#arc-slidertwo {
+    height: 270px !important;
+    width: 40px !important;
+    /* border: 1px dashed; */
+    /* overflow: hidden; */
+    /* padding: 15px; */
+    /* transform: rotate(270deg); */
+    /* -moz-transform: rotate(270deg); */
+    position:absolute;
+    top:24vh;
+    left:280px;
+    
+}
+#arc-slidertwo .rs-container {
+    margin-left: -300px;
+    /* margin-top: -230px; here 300 is the radius value */
+    /* left: 50%; */
+    
+}
+/* #arc-slidertwo .rs-tooltip {
+    top:250px;
+} */
+/* #arc-slidertwo .rs-tooltip-text {
+    font-size: 25px;
+} */
+/* #arc-slidertwo .rs-border{
+    border-width: 0px;
+} */
+
+/* Appearance related changes */
+/* .rs-control .rs-range-color {
+    background-color: #0274ff;
+}
+.rs-control .rs-path-color {
+    background-color: #e5e5e5;
+}
+.rs-control .rs-handle {
+    background-color: #0274ff;
+} */
+
+
+#slidertwo{
+    height: 0px !important;
+    width: 20px !important;
+    position:absolute;
+    top:-16vh;
+    left:-90px;
+}
+#slidertwo .rs-container {
+    margin-left: 150px;
+    margin-top: 170px;
+    /* margin-top: -230px; here 300 is the radius value */
+    /* left: 50%; */
+    
+}
+
+#sliderthree{
+    height: 70px !important;
+    width: 20px !important;
+    position:absolute;
+    top:7vh;
+    left:0px;
+}
+#sliderthree .rs-container {
+    margin-left: 0px;
+    /* margin-top: -230px; here 300 is the radius value */
+    /* left: 50%; */
+    
+}
+/* #slidertwo .rs-range-color {
+    background-color: #0274ff;
+}
+#slidertwo .rs-border{
+    border-width: 0px;
+}
+#slidertwo .rs-path-color {
+    background-color: #e5e5e5;
+}
+#slidertwo .rs-handle {
+    background-color: #0274ff;
+} */
+/* #slidertwo .rs-bg-color {
+    background-color: #e5e5e5;
+} */
+
+
+#vranger {
+  height: 200px;
+  width: 100px;
+  position:absolute;
+  top:20vh;
+  left:20vw;
+  /* margin-left: 46vw;
+  margin-top: 32vh; */
+   /* transform: rotate(270deg);
+  -moz-transform: rotate(270deg);  */
+} 
+.vrangertwo {
+  height: 200px;
+  width: 100px;
+  position:absolute;
+  top:20vh;
+  left:50vw;
+  /* margin-left: 47vw;
+  margin-top: -60vh; */
+   transform: rotate(270deg);
+  -moz-transform: rotate(270deg); 
+} 
+
+#img{
+    position:absolute;
+    left:35vw;
+}
