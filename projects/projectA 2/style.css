@@ -3,65 +3,94 @@ body {
   zoom: 0.8;
   zoom: 57%;
 }
-#imgtwo{
+
+
+
+.piano-container{
   position: relative;
-  left: 7.8rem;
-  top:-17rem;
-pointer-events: none;
+  top:0rem;
 }
+
+/* //bottom */
 #img{
-  position: relative;
+  position:absolute;
    left: 7.8rem;
-   /* top: 2.2rem; */
+   top: 0.3rem;
   /* top:0.8vh; */
   pointer-events: none;
   }
 
-#imgthree{
-  position: relative;
-  top:-5rem;
-   left: -10.1rem;
-   pointer-events: none;
-}
-#bottom-two{
-  position: relative;
-  top:10.8rem;
-   left: -8.9rem;
-   pointer-events: none;
-}
-#top-three{
-  position: relative;
-  top:6.8rem;
-   left: -28.9rem;
-   pointer-events: none;
-}
-#bottom-three{
-  position: relative;
-  top:22.3rem;
-   left: -24.9rem;
-   pointer-events: none;
-}
-#top-four{
-  position: relative;
-  top:17.7rem;
-   left: -46.88rem;
-   pointer-events: none;
-}
-#bottom-four{
-  position: relative;
-  top:34.2rem;
-   left: -41.7rem;
-   pointer-events: none;
-}
 
+  #bottom-two{
+    position:absolute;
+    top:14.5rem;
+    left: 8.4rem;
+     pointer-events: none;
+  }
+
+  #bottom-three{
+    position:absolute;
+    top:25.6rem;
+     left: 7.45rem;
+     pointer-events: none;
+  }
+
+  #bottom-four{
+    position:absolute;
+    top:39rem;
+     left: 7.1rem;
+     pointer-events: none;
+  }
+
+  
+  /* //top */
+  .piano-container{
+    position: relative;
+    top:0rem;
+  }
+  #imgtwo{
+    position:absolute;
+    left: 8.3rem;
+    /* top:-17rem; */
+  pointer-events: none;
+  }
+  
+  
+  #imgthree{
+    position:absolute;
+    top:15.4rem;
+     left: 8rem;
+     pointer-events: none;
+  }
+  
+  #top-three{
+    position:absolute;
+    top:25rem;
+     left: 7rem;
+     pointer-events: none;
+  }
+  
+  #top-four{
+    position:absolute;
+    top:37.9rem;
+     left: 6.06rem;
+     pointer-events: none;
+  }
+
+  
+  
+  
+  
+  
   .piano-keys-container {
     /* text-align: center; */
 
     position: relative;
    left: 9.9rem;
-   top: -15rem;
+   top: 2rem;
   }
 
+  
 
   .vranger {
     /* display: block; */
