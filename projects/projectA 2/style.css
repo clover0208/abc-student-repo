@@ -14,8 +14,8 @@ body {
 /* //bottom */
 #img{
   position:absolute;
-   left: 7.8rem;
-   top: 0.3rem;
+   left: 125.4px;
+   top: 5.3px;
   /* top:0.8vh; */
   pointer-events: none;
   }
@@ -23,8 +23,8 @@ body {
 
   #bottom-two{
     position:absolute;
-    top:14.5rem;
-    left: 8.4rem;
+    top:226.5px;
+    left: 130.4px;
      pointer-events: none;
   }
 
@@ -50,7 +50,7 @@ body {
   }
   #imgtwo{
     position:absolute;
-    left: 8.3rem;
+    left: 133.3px;
     /* top:-17rem; */
   pointer-events: none;
   }
