@@ -1,7 +1,7 @@
 var image = document.getElementById('img');
 var imageUrl = new Array();
 
-        imageUrl[0] = './bird.png';
+        imageUrl[0] = "./bird.png";
 
         imageUrl[1] = './flowerone.png';
 

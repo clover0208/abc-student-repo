@@ -7,6 +7,7 @@ body {
 
 
 
+
 .piano-container{
   position: relative;
   top:0rem;
@@ -573,5 +574,39 @@ body {
     /* -moz-transform: rotate(270deg); do same for other browsers if required */
   }
 
+  /* .item {
+    position: sticky;
+  } */
+
+  /* .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 2px dashed rgba(114, 186, 94, 0.35);
+    height: 400px;
+    background: rgba(114, 186, 94, 0.05);
+  }
+  
+  .item {
+    position: sticky;
+  } */
+
+  #creature{
+    position:absolute;
+    top:20vh;
+    left:50vw;
+  }
+
+  #eye-one{
+    position:absolute;
+    top:20vh;
+    left:50vw;
+  }
+
+  #eye-two{
+    position:absolute;
+    top:100vh;
+    left:50vw;
+  }
 
 
