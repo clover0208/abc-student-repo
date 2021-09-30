@@ -39,7 +39,7 @@ var mapv=parseInt(scale(v, 0, 100, 0, 19))
 
         });
 
-$(document).on('input change', '.vrangerthree', function() {//listen to slider changes
+$(document).on('input change', '.vrangertwo', function() {//listen to slider changes
             var v=$(this).val();//getting slider val
             
             
@@ -52,7 +52,7 @@ $(document).on('input change', '.vrangerthree', function() {//listen to slider c
 
         });
 
-$(document).on('input change', '.vrangersix', function() {//listen to slider changes
+$(document).on('input change', '.vrangerthree', function() {//listen to slider changes
            
 var v=$(this).val();//getting slider val
             
@@ -65,7 +65,7 @@ for(var i=0; i< 20;i++){
 
         });
 
-$(document).on('input change', '.vrangerseven', function() {//listen to slider changes
+$(document).on('input change', '.vrangerfour', function() {//listen to slider changes
            
             var v=$(this).val();//getting slider val
                         
@@ -78,7 +78,7 @@ $(document).on('input change', '.vrangerseven', function() {//listen to slider c
             
                     });
 
-                    $(document).on('input change', '.vrangerfifteen', function() {//listen to slider changes
+                    $(document).on('input change', '.vrangerfive', function() {//listen to slider changes
            
                         var v=$(this).val();//getting slider val
                                     
@@ -90,7 +90,7 @@ $(document).on('input change', '.vrangerseven', function() {//listen to slider c
                                 //   $("#creature").prop("src", imageUrl[mapv]);
                         
                                 });
-$(document).on('input change', '.vrangersixteen', function() {//listen to slider changes
+$(document).on('input change', '.vrangersix', function() {//listen to slider changes
            
                                     var v=$(this).val();//getting slider val
                                                 
@@ -110,7 +110,7 @@ $(document).on('input change', '.vrangersixteen', function() {//listen to slider
                                                     imageUrltwo[0] = './good.png';
                                                     imageUrltwo[1] = './eyeone.png';
 
-                                                    $(document).on('input change', '.vrangertwo', function() {//listen to slider changes
+                                                    $(document).on('input change', '.vrangerseven', function() {//listen to slider changes
                                                         var v=$(this).val();//getting slider val
                                                         // console.log(v)
                                                     function scale (number, inMin, inMax, outMin, outMax) {
@@ -122,7 +122,7 @@ $(document).on('input change', '.vrangersixteen', function() {//listen to slider
                                                       $("#eye-one").prop("src", imageUrltwo[mapv]);
                                             
                                                     });
-                                                    $(document).on('input change', '.vrangerfour', function() {//listen to slider changes
+                                                    $(document).on('input change', '.vrangereight', function() {//listen to slider changes
            
                                                         var v=$(this).val();//getting slider val
                                                                     
@@ -136,7 +136,7 @@ $(document).on('input change', '.vrangersixteen', function() {//listen to slider
                                                                 });
 
 
-                                                                $(document).on('input change', '.vrangereightteen', function() {//listen to slider changes
+                                                                $(document).on('input change', '.vrangernine', function() {//listen to slider changes
            
                                                                     var v=$(this).val();//getting slider val
                                                                                 
@@ -149,7 +149,7 @@ $(document).on('input change', '.vrangersixteen', function() {//listen to slider
                                                                     
                                                                             });
                                                                     
-                                                                    $(document).on('input change', '.vrangernineteen', function() {//listen to slider changes
+                                                                    $(document).on('input change', '.vrangerten', function() {//listen to slider changes
                                                                                
                                                                                 var v=$(this).val();//getting slider val
                                                                                             
@@ -162,7 +162,7 @@ $(document).on('input change', '.vrangersixteen', function() {//listen to slider
                                                                                 
                                                                                         });
 
-                                                                                        $(document).on('input change', '.vrangertwenty', function() {//listen to slider changes
+                                                                                        $(document).on('input change', '.vrangereleven', function() {//listen to slider changes
                                                                                
                                                                                             var v=$(this).val();//getting slider val
                                                                                                         
@@ -176,7 +176,7 @@ $(document).on('input change', '.vrangersixteen', function() {//listen to slider
                                                                                             
                                                                                                     });
 
-                                                                                        $(document).on('input change', '.vranger24', function() {//listen to slider changes
+                                                                                        $(document).on('input change', '.vrangertwelve', function() {//listen to slider changes
                                                                                
                                                                                                         var v=$(this).val();//getting slider val
                                                                                                                     
@@ -198,7 +198,7 @@ $(document).on('input change', '.vrangersixteen', function() {//listen to slider
                                                     imageUrlthree[0] = './good.png';
                                                     imageUrlthree[1] = './eyetwo.png';
 
-                                                    $(document).on('input change', '.vranger32', function() {//listen to slider changes
+                                                    $(document).on('input change', '.vrangerthirteen', function() {//listen to slider changes
                                                         var v=$(this).val();//getting slider val
                                                         // console.log(v)
                                                     function scale (number, inMin, inMax, outMin, outMax) {
@@ -210,7 +210,7 @@ $(document).on('input change', '.vrangersixteen', function() {//listen to slider
                                                       $("#eye-two").prop("src", imageUrlthree[mapv]);
                                             
                                                     });
-                                                    $(document).on('input change', '.vranger33', function() {//listen to slider changes
+                                                    $(document).on('input change', '.vrangerfourteen', function() {//listen to slider changes
            
                                                         var v=$(this).val();//getting slider val
                                                                     
@@ -224,7 +224,7 @@ $(document).on('input change', '.vrangersixteen', function() {//listen to slider
                                                                 });
 
 
-                                                                $(document).on('input change', '.vranger34', function() {//listen to slider changes
+                                                                $(document).on('input change', '.vrangerfifteen', function() {//listen to slider changes
            
                                                                     var v=$(this).val();//getting slider val
                                                                                 
@@ -237,7 +237,7 @@ $(document).on('input change', '.vrangersixteen', function() {//listen to slider
                                                                     
                                                                             });
                                                                     
-                                                                    $(document).on('input change', '.vranger35', function() {//listen to slider changes
+                                                                    $(document).on('input change', '.vrangersixteen', function() {//listen to slider changes
                                                                                
                                                                                 var v=$(this).val();//getting slider val
                                                                                             
@@ -250,7 +250,7 @@ $(document).on('input change', '.vrangersixteen', function() {//listen to slider
                                                                                 
                                                                                         });
 
-                                                                                        $(document).on('input change', '.vranger36', function() {//listen to slider changes
+                                                                                        $(document).on('input change', '.vrangerseventeen', function() {//listen to slider changes
                                                                                
                                                                                             var v=$(this).val();//getting slider val
                                                                                                         
