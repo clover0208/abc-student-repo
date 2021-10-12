@@ -58,7 +58,12 @@
         }
         #showTwo{
           position: absolute; 
-          top: 10vh;
+          top: 20vh;
+          left: 20vw;
+        }
+        #showThree{
+          position: absolute; 
+          top: 15vh;
           left: 20vw;
         }
         /* #showMetwo { 
