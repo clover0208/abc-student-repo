@@ -8,23 +8,6 @@ body {
   margin: 0;
 }
 
-#container{
-position:relative;
-left:350px;
-top:-500px;
-}
-#containertwo{
-  position:relative;
-  left:20px;
-  top:-1050px;
-  }
-
-#letter-l{
-  position:relative;
-  left:500px;
-  top:30px;
-}
-
 .wrapper {
   width: 500px;
   height: 80px;

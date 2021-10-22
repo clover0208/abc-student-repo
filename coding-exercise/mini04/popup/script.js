@@ -24,64 +24,142 @@
 //   });
 // })
 
-// var letter_e = [
-//     25,
-//     25,
-//     25,
-//     25,
-//     25,
-//     10,
-//     10,
-//     10,
-//     10,
-//     10,
-//     25,
-//     25,
-//     25,
-//     25,
-//     10,
-//     10,
-//     10,
-//     10,
-//     10,
-//     25,
-//     25,
-//     25,
-//     25,
-//     25
-// ];
+var letter_e = [
+    25,
+    25,
+    25,
+    25,
+    25,
+    10,
+    10,
+    10,
+    10,
+    10,
+    25,
+    25,
+    25,
+    25,
+    10,
+    10,
+    10,
+    10,
+    10,
+    25,
+    25,
+    25,
+    25,
+    25
+];
+
+var letter_h = [
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    15,
+    16,
+    18,
+    20,
+    [6,12,8],
+    [6,12,8],
+    [6,12,8],
+    [6,12,8],
+    [6,12,8],
+    [6,12,8],
+    [6,12,8],
+    [6,12,8]
+];
 
 
 
-// var string = 'Writing out giant letters with javascript is a bad idea! ';
+var string = 'Writing out giant letters with javascript is a bad idea! ';
 
-// console.log(string)
-// var current_letter_count = 0;
-// letter_e.forEach(function(count) {
-//     document.addEventListener('DOMContentLoaded', function() {
-//         var div = document.createElement('div');
-//         div.id = 'container';
-//         div.innerHTML = 'Hi there!';
-//         div.className = 'border pad';
+console.log(string)
+var current_letter_count = 0;
+letter_e.forEach(function(count) {
+    document.addEventListener('DOMContentLoaded', function() {
+        var div = document.createElement('div');
+        div.id = 'container';
+        div.innerHTML = 'Hi there!';
+        div.className = 'border pad';
      
-//         document.body.appendChild(div);
+        document.body.appendChild(div);
    
-//     for (i = 0; i < count; i++) {
+    for (i = 0; i < count; i++) {
         
-//         div.innerHTML = div.innerHTML + string[current_letter_count];
+        div.innerHTML = div.innerHTML + string[current_letter_count];
 
-//         current_letter_count++;
-//         if (current_letter_count >= string.length) {
-//             current_letter_count = 0;
-//         }
-//     }
-//     div.innerHTML = div.innerHTML + '</br>';
-//     console.log(div.innerHTML)
-// }, false);
-// });
+        current_letter_count++;
+        if (current_letter_count >= string.length) {
+            current_letter_count = 0;
+        }
+    }
+    div.innerHTML = div.innerHTML + '</br>';
+    console.log(div.innerHTML)
+}, false);
+});
+
+var do_spaces = false;
+letter_h.forEach(function(count) {
+    document.addEventListener('DOMContentLoaded', function() {
+        var div = document.createElement('div');
+        div.id = 'containertwo';
+        div.innerHTML = 'Hi there!';
+        div.className = 'border padtwo';
+     
+        document.body.appendChild(div);
+   
+        if (count.length > 1) { // Has spaces in it
+			count.forEach(function(spaces_count) {
+				var apply_letter = 'b';
+				if (do_spaces == true) {
+					apply_letter = '&nbsp;';
+				}
+				for (i = 0; i < spaces_count; i++) {
+					div.innerHTML = div.innerHTML + apply_letter;
+				}
+				do_spaces = do_spaces == true ? false : true;
+			});
+			do_spaces = false;
+		} else { // No spaces
+			for (i = 0; i < count; i++) {
+				div.innerHTML = div.innerHTML + 'b';
+			}
+		}
+		div.innerHTML = div.innerHTML + '</br>';
+    })
+});
 
 
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // let toggle = document.getElementById('toggle');
 // toggle.addEventListener('click', () => {
 //     let checked = toggle.checked;

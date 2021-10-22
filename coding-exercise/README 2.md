@@ -1,0 +1,8 @@
+# Protest from the console
+![Animated Cover](cover.gif)
+## Description
+When web developers building a website, we make consoles to help us detect what's going wrong. But what if the console is not helping us anymore, instead they betray us since they have helped us too much. Just like there are parasites that can do both good and bad things，what if the console become such parasite that can helping building the web but also ruining the content of the webpage.  
+## Inspiration and meaning
+Often, I only think of console.log when my site is not working. People often focus on the element on the webpage compared to the console log. I would ask myself, if I were a console, why should I work for these people who only think of me when the site is not working, and I came up with this idea. Also I think it is an interesting experience when you have built your site with the help of console and at the same time your site is destroyed by console. Just like those neutral parasites who collect certain benefits while helping.
+##Experience
+When you launch your website, if you have something in your console log, you will receive the curse words. Like if you have 2 lines of console, the text on your page will form two dirty words one after another(you will first see "hell" and then "damn")in your page. By doing so, I want to emphasis the importance of console.log. The dirty word may be collected from a library and I will let the text on page fill the letter. It’s like the console is complaining to users that they need more attention. I also aims at raising people’s awareness of the console.log since they are super useful. Don’t think of console only when your webpage is not working.
