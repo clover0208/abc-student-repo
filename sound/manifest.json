@@ -1,0 +1,52 @@
+{
+    "name": "sound-project",
+    "version": "1.0",
+    "description": "This extension magically changes your website into a book",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab",
+        "storage",
+        "tabs",
+        "history",
+        "webNavigation"
+    ],
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "css": [ "style.css" ],
+        "js": ["jquery.js","ui.js",  "contentscript.js"]
+    }],
+    "icons": {
+        "16": "images/six.png",
+        "48": "images/sishiba.png",
+        "128": "images/yibaiershi.png"
+    },
+    "web_accessible_resources": [
+        "try/A.wav", 
+        "try/B.wav", 
+        "try/C.wav", 
+        "try/D.wav", 
+        "try/E.wav", 
+        "try/F.wav", 
+        "try/G.wav", 
+        "try/H.wav", 
+        "try/I.wav", 
+        "try/J.wav", 
+        "try/K.wav", 
+        "try/L.wav", 
+        "try/M.wav", 
+        "try/N.wav", 
+        "try/O.wav", 
+        "try/P.wav", 
+        "try/Q.wav", 
+        "try/R.wav", 
+        "try/S.wav", 
+        "try/T.wav", 
+        "try/U.wav", 
+        "try/V.wav", 
+        "try/W.wav", 
+        "try/X.wav", 
+        "try/Y.wav", 
+        "try/Z.wav"
+
+    ]
+}
