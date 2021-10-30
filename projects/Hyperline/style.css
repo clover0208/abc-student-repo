@@ -58,8 +58,13 @@
         }
         #showTwo{
           position: absolute; 
-          top: 20vh;
-          left: 20vw;
+          top: 60vh;
+          left: 40vw;
+        }
+        #showminione{
+          position: absolute; 
+          top: 60vh;
+          left: 30vw;
         }
         #showThree{
           position: absolute; 
@@ -69,6 +74,11 @@
         #ProjectB{
           position: absolute; 
           top: 40vh;
+          left: 40vw;
+        }
+        #ProjectA{
+          position: absolute; 
+          top: 50vh;
           left: 40vw;
         }
         #showfive{
