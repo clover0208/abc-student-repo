@@ -1,8 +1,8 @@
 
-        #hexagon { 
-         
+        #hexagon {
 
-          
+
+
           /* padding: 0;
           display: block;
           margin: 0 auto; */
@@ -11,11 +11,11 @@
            left: 10vw;
         }
 
-        #hexagontwo { 
+        #hexagontwo {
 
           /* padding: 0;
           display: block;
-          margin: 0 auto; */ 
+          margin: 0 auto; */
           position:absolute;
           top: 30vh;
            left: 10vw;
@@ -34,65 +34,70 @@
             transform: rotate(90deg);
         } */
 
-        #img { 
+        #img {
           cursor: pointer;
-          position: absolute; 
+          position: absolute;
           top: 30vh;
-          left: 10vw; 
+          left: 10vw;
           transition: all 1s;
-        
+
         }
 
-        #showMe { 
+        #showMe {
           /* cursor: pointer; */
-          position: absolute; 
+          position: absolute;
           top: 70vh;
-          left: 10vw; 
+          left: 10vw;
           /* transition: all 1s; */
-        
+
         }
         #show{
-          position: absolute; 
+          position: absolute;
           top: 20vh;
           left: 40vw;
         }
         #showTwo{
-          position: absolute; 
+          position: absolute;
           top: 60vh;
           left: 40vw;
         }
         #showminione{
-          position: absolute; 
+          position: absolute;
           top: 60vh;
           left: 30vw;
         }
         #showThree{
-          position: absolute; 
+          position: absolute;
           top: 15vh;
           left: 20vw;
         }
         #ProjectB{
-          position: absolute; 
+          position: absolute;
           top: 40vh;
           left: 40vw;
         }
         #ProjectA{
-          position: absolute; 
+          position: absolute;
           top: 50vh;
           left: 40vw;
         }
         #showfive{
-          position: absolute; 
+          position: absolute;
           top: 30vh;
           left: 30vw;
         }
-        /* #showMetwo { 
+        #showsix{
+          position: absolute;
+          top: 50vh;
+          left: 50vw;
+        }
+        /* #showMetwo {
           cursor: pointer;
-          position: absolute; 
+          position: absolute;
           top: 70vh;
-          left: 50vw; 
+          left: 50vw;
           transition: all 1s;
-        
+
         } */
         /* .rotated-image {
           -webkit-transform: rotate(20deg);
@@ -129,28 +134,28 @@
           height:50px;
            /* background-color:red; */
           position:fixed;
-              
+
           }
           .b {
             width: 50px;
             height:50px;
              /* background-color:red; */
             position:fixed;
-                
+
             }
             .c {
               width: 50px;
               height:50px;
                /* background-color:red; */
               position:fixed;
-                  
+
               }
               .d {
                 width: 50px;
                 height:50px;
                  /* background-color:red; */
                 position:fixed;
-                    
+
                 }
 
                 .e {
@@ -158,44 +163,40 @@
                   height:50px;
                    /* background-color:red; */
                   position:fixed;
-                      
+
                   }
                   .f {
                     width: 50px;
                     height:50px;
                      /* background-color:red; */
                     position:fixed;
-                        
+
                     }
                     .g {
                       width: 50px;
                       height:50px;
                        /* background-color:red; */
                       position:fixed;
-                          
+
                       }
                       .h {
                         width: 50px;
                         height:50px;
                          /* background-color:red; */
                         position:fixed;
-                            
+
                         }
                         .i {
                           width: 50px;
                           height:50px;
                            /* background-color:red; */
                           position:fixed;
-                              
+
                           }
                           .j {
                             width: 50px;
                             height:50px;
                              /* background-color:red; */
                             position:fixed;
-                                
+
                             }
-                         
-
-
-
