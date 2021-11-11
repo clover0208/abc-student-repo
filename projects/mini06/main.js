@@ -52,9 +52,6 @@ function selectMe(){
     }
 }
 
-
-
-let hello=false;
 function checkIsComplete(){
     let currentDiv = document.querySelector('.'+currentView);
     let allSlices = currentDiv.querySelectorAll('[class*="img-holder"]');
@@ -66,27 +63,14 @@ function checkIsComplete(){
     for (let i = 0; i < allSlices.length; i++) {
         const slice = allSlices[i];
         currentOrder.push(window.getComputedStyle(slice).getPropertyValue('order'))
-
     }
     if(currentOrder.toString() == correctOrder.toString()){
         let activeLink = document.querySelector('.active');
 
         currentDiv.style.border = "5px solid yellow";
         currentDiv.style.boxShadow = "0 0 16px green";
-
-        hello=true;
+        console.log("you finish")
     }
-
-    if(hello==true){
-
-        myFunction()
-      window.location.href = "/secret?word=paperclip";
-      console.log("click gift")
-
-
-  }
-
-
 
 }
 
@@ -109,16 +93,4 @@ function setNavLinks(){
             divToShow.style.display = "flex";
         })
     }
-}
-
-function myFunction() {
-var person = prompt("Congratulation!!Enter your name please", "");
-if (person != null) {
-console.log(person)
-// let gift = person;
-
-fetch("/gift?gift="+person+"finished");
-
-
-}
 }

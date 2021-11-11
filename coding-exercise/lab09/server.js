@@ -1,28 +1,53 @@
-console.log(process.env.PORT);
-
 const express = require('express')
 const app = express()
-const port = 5000
-// const port=process.env.PORT
+const port = 3020  // glitch: const port = process.env.PORT
+const secret = "paperclip";
 
-app.use(express.static("public"));
+let gifts = [];
 
-let counter = 0;
+app.use(express.static('public'))
 
-app.get('/add', (req, res) => {
-  counter++;
-  console.log("someone added one", counter)
 
-  res.json({value: counter})
+app.get('/secret', (request, response) => {
+  // console.log(request);
+  let query = request.query;
+  let guess = query.word;
+  console.log(query);
+  if(guess == secret){
+    console.log("let them into the garden");
+    response.redirect("/garden");
+    // response.sendFile(__dirname + '/public/garden/index.html')
+  }else{
+    console.log("something is fishy");
+    // response.sendFile(__dirname + '/public/fishy/index.html')
+    response.redirect("/fishy");
+  }
+  console.log("--------")
+  // res.sendFile(__dirname + '/index.html')
+})
+
+app.get('/gift', (request, response) => {
+  // console.log(request);
+  let query = request.query;
+  let gift = query.gift;
+  gifts.push(gift)
+  console.log("received:", gift);
+  console.log("all the things I have:", gifts);
+  console.log("--------")
 
 })
-app.get('/getCurrent', (req, res) => {
-  console.log("someone check for updates")
-  res.json({value: counter})
+app.get('/getGifts', (request, response) => {
+  console.log("someone asks for gifts");
+  response.json( {content: gifts, sender: "the garden gods"} );
+  console.log("--------");
+
 
 })
 
-
+//
+// app.get('/script.js', (req, res) => {
+//   res.sendFile(__dirname + '/script.js')
+// })
 
 
 app.listen(port, () => {
