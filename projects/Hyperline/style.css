@@ -91,6 +91,11 @@
           top: 50vh;
           left: 50vw;
         }
+        #showseven{
+          position: absolute;
+          top: 40vh;
+          left: 80vw;
+        }
         /* #showMetwo {
           cursor: pointer;
           position: absolute;
