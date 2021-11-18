@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employee Application Form Flat Responsive Widget Template :: w3layouts</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Employee Application Form Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/jquery-ui.css" />
+<script src="js/jquery-1.12.0.min.js"></script>
+</head>
+<body>
+	<div class="main">
+		<h1>Surveillance Sign up Form</h1>
+		<div class="w3_agile_main_grids">
+			<div class="agileits_w3layouts_main_grid">
+				<form id="upload" action="#" method="post" enctype="multipart/form-data">
+					<div class="agile_main_grid_left">
+						<div class="w3_agileits_main_grid_left_grid">
+							<h3>Register Here :</h3>
+							<input type="email" name="Email" placeholder="Email" required="">
+							<input type="password" name="Password" id="password1" placeholder="Password" required="">
+							<input type="password" name="Confirm Password" id="password2" placeholder="Confirm Password" required="">
+
+							<textarea name="Message" placeholder="Address..." required=""></textarea>
+
+
+
+						</div>
+
+					</div>
+					<div class="agile_main_grid_left">
+						<h3>Your Details Infomation:</h3>
+						<input type="text" name="First Name" placeholder="First Name" required="" id="FirstName">
+						<input type="text" name="Last Name" placeholder="Last Name" required="" id="LastName">
+						<input type="text" name="Phone Number" placeholder="Phone Number" required="" id="PhoneNumber">
+						<input class="date" id="datepicker" name="Your Birthday" type="text" value="dd-mm-yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'dd-mm-yyyy';}" required="" >
+						<div class="w3layouts_file_upload">
+								<h4>Submit your image:</h3>
+							<div class="w3_agileinfo_file">
+								<input type="file" id="fileselect" name="fileselect[]" multiple="multiple" required="" />
+							</div>
+						</div>
+
+						<div id="msg">
+			            <pre></pre>
+			        </div>
+
+							<div class="formBox">
+						            <button id="btn">Click to Add</button>
+						    </div>
+
+					</div>
+					<div class="clear"> </div>
+					<input type="submit" value="Submit Application">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- start-date-piker-->
+		<script src="js/jquery-ui.js"></script>
+		<script>
+			$(function() {
+			$( "#datepicker" ).datepicker();
+			});
+		</script>
+		<script src="script.js"></script>
+	<!-- //End-date-piker -->
+</body>
+</html>
