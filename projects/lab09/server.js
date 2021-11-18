@@ -9,6 +9,8 @@ let players = {};
 
 io.on('connection', connected);
 
+app.use(express.static('public'));
+
 //listening to events after the connection is estalished
 function connected(socket){
     socket.on('newPlayer', data => {
