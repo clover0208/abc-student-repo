@@ -1,6 +1,13 @@
 const canvas = document.getElementById('canvas');
-canvas.width  = window.innerWidth;
-canvas.height = window.innerHeight;
+// canvas.width  = window.innerWidth;
+// canvas.height = window.innerHeight;
+
+// document.getElementById("hello").style.top = "100px";
+
+
+// var canvas = document.getElementsByTagName('canvas')[0];
+canvas.width  = 1000;
+canvas.height = 600;
 
 function windowResize() {
   canvas.width  = window.innerWidth;
@@ -10,14 +17,26 @@ function windowResize() {
 window.addEventListener('resize', windowResize);
 
 
-const socket = io.connect('http://localhost:4000');
+let socket = io();
 
 
 const ctx = canvas.getContext('2d');
 
+// let i = new Image();
+// i.src = 'virus.png';
+// i.onload = function() {
+//
+//   ctx.drawImage(i, 0, -200);
+// }
+
+
 let clientBalls = {};
 
 //setting up the environment
+// var img = document.getElementById("scream");
+// ctx.drawImage(img, 0, -200);
+
+
 putWallsAround(0, 0, canvas.clientWidth, canvas.clientHeight);
 let startX = 40+Math.random()*560;
 let startY = 40+Math.random()*400;

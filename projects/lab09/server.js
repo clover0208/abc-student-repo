@@ -1,15 +1,19 @@
 const express = require('express');
 const app = express();
+let http = require('http').createServer(app);
 // const server = app.listen(5100);
-const io = require('socket.io')(4000);
+const io = require('socket.io')(http);
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.use(express.static('public'));
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/index.html');
+});
 
 let players = {};
 
 io.on('connection', connected);
 
-app.use(express.static('public'));
+
 
 //listening to events after the connection is estalished
 function connected(socket){
@@ -51,3 +55,7 @@ function connected(socket){
         socket.broadcast.emit('ServerClientHello', data);
     })
 }
+
+http.listen(3000, () => {
+  console.log('listening on *:3000');
+});

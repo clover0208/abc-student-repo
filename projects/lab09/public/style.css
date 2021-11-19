@@ -1,0 +1,25 @@
+#scream {
+  position:absolute;
+  top:150px;
+  left:70px;
+}
+#screamtwo {
+  position:absolute;
+  top:150px;
+  left:1180px;
+}
+#screamthree {
+  position:absolute;
+  top:50px;
+  left:180px;
+}
+#screamfour {
+  position:absolute;
+  top:770px;
+  left:180px;
+}
+#canvas {
+  position:absolute;
+  top:170px;
+  left:180px;
+}

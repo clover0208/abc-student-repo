@@ -89,6 +89,9 @@ class Circle{
 
 
 
+
+
+
 //Parent class of the bodies (Ball, Capsule, Box, Star, Wall)
 class Body{
     constructor(x, y){
@@ -141,6 +144,33 @@ class Body{
         if (BODIES.indexOf(this) !== -1){
             BODIES.splice(BODIES.indexOf(this), 1);
         }
+    }
+}
+
+
+class Line{
+    constructor(x0, y0, x1, y1){
+        this.vertex = [];
+        this.vertex[0] = new Vector(x0, y0);
+        this.vertex[1] = new Vector(x1, y1);
+        this.dir = this.vertex[1].subtr(this.vertex[0]).unit();
+        this.mag = this.vertex[1].subtr(this.vertex[0]).mag();
+        this.pos = new Vector((this.vertex[0].x+this.vertex[1].x)/2, (this.vertex[0].y+this.vertex[1].y)/2);
+    }
+
+    draw(color){
+        ctx.beginPath();
+        ctx.moveTo(this.vertex[0].x, this.vertex[0].y);
+        ctx.lineTo(this.vertex[1].x, this.vertex[1].y);
+        if (color === ""){
+            ctx.strokeStyle = "white";
+            ctx.stroke();
+        } else {
+            ctx.strokeStyle = color;
+            ctx.stroke();
+        }
+        ctx.strokeStyle = "";
+        ctx.closePath();
     }
 }
 
@@ -364,7 +394,7 @@ class Star extends Body{
 class Wall extends Body{
     constructor(x1, y1, x2, y2){
         super();
-        // this.comp = [new Line(x1, y1, x2, y2)];
+        this.comp = [new Line(x1, y1, x2, y2)];
         this.pos = new Vector((x1+x2)/2, (y1+y2)/2);
     }
 }
@@ -619,8 +649,8 @@ function collide(o1, o2){
             if(sat(o1.comp[o1comp], o2.comp[o2comp]).pen > bestSat.pen){
                 bestSat = sat(o1.comp[o1comp], o2.comp[o2comp]);
                  //if (o1.color == ""){
-                 o1.color="blue";
-                 o2.color="blue";
+                 o1.color="white";
+                 o2.color="white";
 
 
             }

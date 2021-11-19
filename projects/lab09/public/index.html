@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="/socket.io/socket.io.js"></script>
+<link rel="stylesheet" href="style.css">
     <style>
         #canvas{
             /* border: 1px solid black; */
@@ -15,11 +17,15 @@
 
 </head>
 <body>
-  <p style="text-align:center">There are virus, if you touch another person, you both get infected.</p>
-  <p style="text-align:center">You also need to control the ball in the canvas or you die.</p>
+  <p style="text-align:center" >There are virus, if you touch another person, you both get infected.</p>
+
     <p></p>
     <canvas id="canvas" tabindex=0></canvas>
 
+<img src="virus.png" id="scream">
+<img src="virus.png" id="screamtwo">
+<img src="virustwo.png" id="screamthree">
+<img src="virustwo.png" id="screamfour">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
     <script src="mocorgo.js"></script>
