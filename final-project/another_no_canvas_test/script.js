@@ -50,7 +50,7 @@ function keyDown(e){
 
   if(e.key == "Right" || e.key == "ArrowRight"){
     stepX+=50;
-    box.style.left = stepX+"px";
+    box.style.left = stepX+"px"; 
 
   }
 

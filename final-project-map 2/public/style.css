@@ -1,0 +1,87 @@
+body {
+	background-color:rgb(0,0,0);
+	font-size: 1em;
+}
+
+.cadre {
+	background-color:rgb(0,0,0);
+	box-shadow: 0px 0px 30px black; -webkit-box-shadow: 0px 0px 30px black; -moz-box-shadow: 0px 0px 30px black;
+	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+
+
+.testPicture{
+	position: absolute;
+	top:50px;
+	left:200px;
+}
+
+.people{
+	position: absolute;
+	top:10px;
+	left:10px;
+	width:1230px;
+	height:718px;
+
+}
+.peopleimg
+{
+
+z-index: 10000000;
+	position:absolute;
+
+}
+.ball
+{
+
+  display:block;
+	position:absolute;
+	border-radius: 350px;
+	width:350px;
+	height:350px;
+	background-color: white;
+
+}
+
+#myball
+{
+
+ display:block;
+	position:absolute;
+	top:300px;
+	left:300px;
+	border-radius: 350px;
+
+	width:350px;
+	height:350px;
+	background-color: white;
+	box-shadow: white 0 0 15px 15px;
+
+}
+#zone
+{
+	/* border-radius: 350px;
+	width:350px;
+	height:350px;
+	background-color: white; */
+
+	position:absolute;
+
+}
+
+
+
+#child
+{
+	border-radius: 50px;
+	width:50px;
+	height:50px;
+	background-color: white;
+
+	position:absolute;
+
+}
+
+img{
+	z-index: 10000;
+}

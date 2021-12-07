@@ -1,0 +1,36 @@
+/* canvas { background: #eee; } */
+body{
+  background-color: black;
+}
+#playground{
+  background-color: yellow;
+  width:1000px;
+  height:700px;
+  overflow:auto;
+  margin:auto;
+}
+
+#movingBox{
+  /* width:30px;
+  height:30px;
+  top:300px;
+  left:400px;
+  background-color: black; */
+  width:100px;
+  height:100px;
+  border-radius: 50%;
+  left:200px;
+  top:200px;
+  background-color: rgb(255, 238, 125);
+  box-shadow: 0px 0px 20px rgb(255, 238, 125);
+
+  box-shadow: 0px 0px 40px rgb(255, 238, 125);
+  position: absolute;
+}
+.house{
+  position: absolute;
+  width:400px;
+  height:480px;
+  left:500px;
+  top:200px;
+}
