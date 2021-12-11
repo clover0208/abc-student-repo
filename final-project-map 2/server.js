@@ -31,7 +31,7 @@ io.sockets.on('connection', function (socket) {
     roomtwo=parseInt((userNum-1)/3) 
     // console.log("room " +roomtwo)
       // room+=1;
-      console.log("room",roomtwo)
+    console.log("room",roomtwo)
     socket.join(roomtwo);
     io.sockets.to(roomtwo).emit('get_all_balls', tab_pl);
     io.sockets.to(roomtwo).emit('id_ball', socket.id);
@@ -58,7 +58,7 @@ io.sockets.on('connection', function (socket) {
   // room=data.room;
   roomtwo=parseInt((tab_pl.length-1)/3) 
   console.log(roomtwo)
-  io.sockets.to(roomtwo).emit('move_the_ball', data);
+  io.sockets.emit('move_the_ball', data);
   });
 
   socket.on('disconnect', function () {
@@ -77,8 +77,10 @@ io.sockets.on('connection', function (socket) {
 	}
 	tab_pl = tmp;
 	i = j;
+  roomtwo=parseInt((i-1)/3) 
+  console.log(roomtwo)
   
-	socket.broadcast.emit('get_all_balls', tab_pl);
+	io.sockets.emit('get_all_balls', tab_pl);
   });
 });
 

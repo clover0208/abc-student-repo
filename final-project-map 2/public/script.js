@@ -1,3 +1,4 @@
+let introVideo = document.getElementById('introVideo');
 window.onscroll = function () { window.scrollTo(0, 0); };
 jQuery(function ($) {
 
@@ -118,10 +119,15 @@ jQuery(function ($) {
 		});
 
 		socket.on('new_ball', function (data) {
+			// socket.on('id_ball', function (id) {
 			pos = $('#zone').position();
 			let ball = '<div id="' + data.id + '" class="ball" style="background-color:' + data.cl + ';left:' +data.x + 'px;top:' +data.y+ 'px; display:block;"></div>';
-
+            console.log(data.id)
+			// if (bl.id !== pl.id) {
+			// 	$('#' + bl.id).css("display", "block");
 			$('#zone').append(ball);
+		// }
+	// })
 		});
 
 

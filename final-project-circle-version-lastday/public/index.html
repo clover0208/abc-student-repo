@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Balls in real time !</title>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+<script type="text/javascript" src="socket.io/socket.io.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- <audio id="ring" controls loop>
+<source src="bell01.mp3" type="audio/mpeg"> -->
+<audio id="ring" controls loop>
+
+<!-- <source src="bell01.mp3" type="audio/mpeg"> -->
+
+</audio>
+
+  	<div class="introVideobox">
+        <video id="introVideo">
+        <source src="https://cdn.glitch.me/9d7a3970-4112-4922-9066-7534f7d4eae8%2FComp%201.mp4?v=1638854321656" type="video/mp4">
+      </video>
+    </div>
+  
+      <div id="key"><img src="https://cdn.glitch.me/9d7a3970-4112-4922-9066-7534f7d4eae8%2Fley.png?v=16389297964011" width="150"/></div>
+  
+    <div id="text"><center><p>
+    
+    </p>Follow the sound to find the spot where others also finding.</center></div>
+
+
+	<div style="width:7000px;height:4000px;overflow:auto;margin:auto;" id="zone" class="cadre">
+    
+
+
+	</div>
+	
+  <div id="myball"></div>
+  
+  <div id="startbt"><img src="https://cdn.glitch.me/9d7a3970-4112-4922-9066-7534f7d4eae8%2Fgiphy.gif?v=1638855587942" /></div>
+
+  <div id="skip"><img src="https://cdn.glitch.me/9d7a3970-4112-4922-9066-7534f7d4eae8%2Fhand.png?v=1638969531296" width="70"/></div>
+
+  <div id="flag"></div>
+  
+<!--   <div id="lightball"><img src="https://cdn.glitch.me/9d7a3970-4112-4922-9066-7534f7d4eae8%2Flight-ball.gif?v=1638986854642" width="200"/></div> -->
+
+
+  
+
+
+
+
+<script type="text/javascript" src="jQuery.js"></script>
+<!-- <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
+<script src ="./script.js"></script>
+
+</body>
+</html>

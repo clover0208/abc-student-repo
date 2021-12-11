@@ -1,10 +1,10 @@
 body {
-	background-color:rgb(0,0,0);
+	background-color:rgb(84, 201, 100);
 	font-size: 1em;
 }
 
 .cadre {
-	background-color:rgb(0,0,0);
+	background-color:rgb(84, 201, 100);
 	box-shadow: 0px 0px 30px black; -webkit-box-shadow: 0px 0px 30px black; -moz-box-shadow: 0px 0px 30px black;
 	border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px;
 }
@@ -23,6 +23,7 @@ body {
 	height:20px;
 	border:3px white solid;
 	position:absolute;
+	z-index: index 20;
 	border-radius:15px; -moz-border-radius:15px; -webkit-border-radius:15px;
 }
 .alert_chat
