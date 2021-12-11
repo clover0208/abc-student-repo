@@ -1,5 +1,8 @@
-# Text Moving
+# DNA
 ![Animated Cover](covertwo.gif)
+
+[link to the project](https://clover0208.github.io/abc-student-repo/projects/real%20project%20A/index.html)
+
 ## Description
 This is a project aiming at building a DNA exists in the web.
 It control the shape of the creatures and can build creatures.
