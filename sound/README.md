@@ -1,7 +1,7 @@
 # Sound
 
 [Check-Video-Demo!](https://youtu.be/ie0B4edrIQs)
-![Animated Cover](cover.gif)
+<!-- ![Animated Cover](cover.gif) -->
 <!-- [![Watch the video]() -->
 
 <!-- [![Watch the video](cover.gif)](https://youtu.be/ie0B4edrIQs) -->
