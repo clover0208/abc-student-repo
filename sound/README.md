@@ -1,7 +1,9 @@
-# Text Moving
+# Sound
 <!-- ![Animated Cover](cover.gif) -->
 <!-- [Check-Video-Demo!](https://youtu.be/ie0B4edrIQs) -->
-[![Watch the video](https://youtu.be/ie0B4edrIQs)
+<!-- [![Watch the video]() -->
+
+[![Watch the video](cover.gif)](https://youtu.be/ie0B4edrIQs)
 
 [link-to-project](https://github.com/clover0208/abc-student-repo/blob/master/prohectB-code.zip)
 ## Intro
